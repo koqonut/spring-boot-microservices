@@ -28,13 +28,20 @@ https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
 
 <h3>a. CustomerService</h3>
    Exposed at port 3001
+
+
 ![](img/c-up.png)
    
 <h3>b. OrderService</h3>
+
+
 Exposed at port 3002
+
 ![](img/orders.png)
 
 <h3>c. GatewayService</h3>
+
+
 Exposed at port 3005 and directs
 
       - localhost:3005/customers to localhost:3001/customers
@@ -42,6 +49,7 @@ Exposed at port 3005 and directs
 
 
    Customer service routed via the gateway
+
 ![](img/g-cust.png)
 
 Order service routed via the gateway
@@ -49,7 +57,7 @@ Order service routed via the gateway
    ![](img/g-orders.png)
  
 
-   We also display an error page to let users know that service is down
+   *We also display an error page to let users know that service is down*
    ![](img/c-down.png)
 
    
@@ -58,11 +66,14 @@ Order service routed via the gateway
 ![](img/eureka.png)
 
 <h3>e. HystrixDashboard</h3>
-   When services are up
+
+ *When services are up*
+
 ![](img/hystrix.png)
  
 
-   When customer service goes down
+   *When customer service goes down*
+
    ![](img/c-down-hystrix.png)
    
 <h3>f. ConfigServer</h3>
@@ -74,10 +85,12 @@ Order service routed via the gateway
    ![](img/config-server.png)
 
 <h3>g. Zipkin and sleuth log tracing</h3>
+
    ![](img/zipkin_server.png)
   
 
-   sleuth log tracing
+   *sleuth log tracing*
+
    ![](img/sleuth.png)
 
 
