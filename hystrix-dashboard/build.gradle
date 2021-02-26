@@ -2,11 +2,14 @@ plugins {
 	id 'org.springframework.boot' version '2.3.9.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'idea'
+	id 'application'
 }
 
 group = 'com.kn'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
+mainClassName = 'com.kn.hystrixdashboard.HystrixDashboardApplication'
 
 repositories {
 	mavenCentral()

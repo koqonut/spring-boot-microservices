@@ -35,3 +35,8 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

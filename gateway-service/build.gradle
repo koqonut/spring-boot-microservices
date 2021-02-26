@@ -3,11 +3,13 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 	id 'idea'
+	id 'application'
 }
 
 group = 'com.kn'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
+mainClassName = 'com.kn.gatewayservice.GatewayServiceApplication'
 
 repositories {
 	mavenCentral()
