@@ -1,0 +1,2 @@
+rootProject.name = 'spring-boot-microservices'
+include 'config-server', 'customer-service','order-service','discovery-service','gateway-service','hystrix-dashboard'
